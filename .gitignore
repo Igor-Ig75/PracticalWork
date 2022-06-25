@@ -1,3 +1,4 @@
 *.bin
 *.obj
-*.urok_001
+.obj
+*.PracticalWork_002
