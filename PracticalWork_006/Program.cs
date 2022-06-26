@@ -56,10 +56,43 @@ Console.WriteLine(max);
 -3 -> нет
 7 -> нет  */
 
+//int num;
+//int even = 0;
+//int noeven;
+/*
+Console.Write("Введите число: ");
+num = Convert.ToInt32(Console.ReadLine());
 
+if ()
+{
 
+}
+
+Console.Write("да,четное = ");
+Console.WriteLine(even);
+//Console.Write(" = нет,нечетное");
+//Console.WriteLine(noeven);
+//num = noeven -"нет";
+//num = even -"да";
+*/
 /*Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
 5 -> 2, 4
 8 -> 2, 4, 6, 8
 */
+
+int n, current;
+
+Console.Write("Введите число: "); 
+n = Convert.ToInt32(Console.ReadLine());
+
+current = 2;
+
+while(current <= n)
+{
+    Console.Write(current + " ");
+    current = current + 2;
+
+}/* Задача
+Напишите программу, которая на вход принимает одно число (N), 
+а на выходе показывает все целые числа в промежутке от -N до N. */
