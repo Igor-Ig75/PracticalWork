@@ -75,10 +75,6 @@ else
     Console.Write("Это число не четное = ");
     Console.WriteLine(num);
 }
-//Console.Write("нет,нечетное = ");
-//Console.WriteLine(num);
-//num = noeven -"нет";
-//num = even -"да";
 
 /*Задача 8: Напишите программу, 
 которая на вход принимает число (N), 
